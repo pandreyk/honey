@@ -115,6 +115,7 @@ h3 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .comment-blue .comment__header {
@@ -156,6 +157,7 @@ h3 {
 
 .comment__body-comment {
   font-size: 22px;
+  padding: 0 15px;
 }
 
 .loader {
