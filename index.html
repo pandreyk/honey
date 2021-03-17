@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/loader.css">
+  </head>
+  <body>
+    <div class="container-fluid fullscreen" style='background-color: #2d3136; display: flex;'>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo.png">
+        </div>
+        <div class="send">
+          <img src="./img/send.png">
+        </div>
+
+        <form>
+          <div class="form-row">
+            <div class="col-lg-6 form-input">
+              <div>
+                <label>Имя <span title='Обязательное поле'>*</span></label>
+                <input type="text" id="name" class="custom-form-control">
+              </div>
+              <div>
+                <label>E-mail <span title='Обязательное поле'>*</span></label>
+                <input type="email" id="email" class="custom-form-control">
+              </div>
+            </div>
+            <div class="col-lg-6 form-textarea">
+              <div>
+                <label>Комментарий <span title='Обязательное поле'>*</span></label>
+                <textarea class="custom-form-control"  rows="5" id="comment"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-row form-btn">
+            <input class="btn custom-btn" type="submit" value="Записать">
+          </div>
+        </form>
+
+      </div>
+    </div>    
+
+    <div class="container-fluid" style='background-color: #f6f6f7; display: flex;'>
+      <div class="container">
+        <h3>Выводим коментарии</h3>
+        <div id='comments'></div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style='background-color: #2d3136'>
+      <div class="container footer">
+        <div class="footer-logo">
+          <img src="./img/logo.png">
+        </div>
+        <div class="footer-net">
+          <div class="footer-fc">
+            <img src="./img/fc.png">
+          </div>
+          <div class="footer-vk">
+            <img src="./img/vk.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
